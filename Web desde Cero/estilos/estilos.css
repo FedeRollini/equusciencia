@@ -1,0 +1,132 @@
+/*Css Equus Ciencia */
+
+body {
+    margin: 0px;
+    background-color: rgb(185, 151, 91);
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.navbar {
+    background-color: #434444;
+}
+
+.logo img {
+    
+    max-height: 75px;
+  }
+			
+
+.nav li a {
+    background-color:#434444;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#b9975b;
+    color: #006a52;;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+	        animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+
+  /*imagen grande e imagenes de novedades */
+
+.cover {
+    height: 400px;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1508343919546-4a5792fee935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: 50%;
+    background-color: rgb(0, 0, 0, 0, 5);
+    background-blend-mode: darken;
+}
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+    padding: 5px;
+}
+
+
+.card {
+    border: 0 !important;
+    box-shadow: auto;
+    
+}
+
+.card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 1rem;
+    color: #434444;
+}
+
+.card-text {
+    min-height: 5rem;
+    color: #434444;
+}
+
+
+/*sección "Flor Godoy Info" */
+
+.container{
+    background-color: #434444;
+    padding: 15px;
+    color:beige
+}
+
+footer {
+    padding: 35px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: beige;
+    background-color: #434444;
+}

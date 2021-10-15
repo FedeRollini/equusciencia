@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.nav-link {
+  display: block;
+  padding: .4rem 0.5rem;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.navbar {
+  background-color: #434444;
+}
+
+.logo img {
+  max-height: 85px;
+}
+
+.nav li a {
+  background-color: #434444;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav li a:hover {
+  background-color: #b9975b;
+  color: #006a52;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.scale-up-center {
+  -webkit-animation: scale-up-center 5s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+  animation: scale-up-center 5s cubic-bezier(0.39, 0.575, 0.565, 1) 1s both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+footer {
+  padding: 35px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: beige;
+  background-color: #434444;
+}
+
+.card {
+  margin-top: 25px;
+  padding: 20px;
+}
+
+img {
+  padding: 15px;
+}
+
+h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-label {
+  margin-top: 15px;
+}
+
+h1 {
+  margin: 15px;
+}
+
+body {
+  margin: 0px;
+  background-color: #b9975b;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*imagen grande e imagenes de novedades */
+.cover {
+  height: 400px;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1508343919546-4a5792fee935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: darken;
+}
+
+.cover-small {
+  height: 200px;
+  background-blend-mode: normal;
+  padding: 5px;
+}
+
+.card {
+  border: 0 !important;
+  -webkit-box-shadow: auto;
+          box-shadow: auto;
+}
+
+.card-title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  min-height: 1rem;
+  color: #434444;
+}
+
+.card-text {
+  min-height: 5rem;
+  color: #434444;
+}
+
+/*sección "Flor Godoy Info y sección asesoramiento" */
+.container {
+  background-color: #434444;
+  padding: 10px;
+  color: beige;
+}
+
+.container h3 {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=main.css.map */

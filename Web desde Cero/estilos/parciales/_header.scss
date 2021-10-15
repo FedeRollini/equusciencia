@@ -1,0 +1,70 @@
+
+$gris: #434444;
+$verde: #006a52;
+$dorado: #b9975b;
+
+.nav-link {
+    display: block;
+    padding: .4rem 0.5rem;
+    color: white;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.navbar {
+    background-color: $gris;
+}
+
+.logo img {
+    max-height: 85px;
+  }
+			  
+.nav li a {
+    background-color: $gris;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 20px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:$dorado;
+    color: $verde;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+	        animation: scale-up-center 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }

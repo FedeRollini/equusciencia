@@ -1,0 +1,65 @@
+@import "./parciales/header";
+@import "./parciales/footer";
+@import "./parciales/cursos";
+@import "./parciales/asesoramientoc";
+@import "./parciales/videos";
+@import "./parciales/contacto";
+
+$gris: #434444;
+$verde: #006a52;
+$dorado: #b9975b;
+
+body {
+    margin: 0px;
+    background-color: $dorado;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+  /*imagen grande e imagenes de novedades */
+
+  .cover {
+    height: 400px;
+    color: white;
+    background-image: url(https://images.unsplash.com/photo-1508343919546-4a5792fee935?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: 50%;
+    background-blend-mode: darken;
+}
+
+.cover-small {
+    height: 200px;
+    background-blend-mode: normal;
+    padding: 5px;
+}
+
+
+.card {
+    border: 0 !important;
+    box-shadow: auto;
+    
+}
+
+.card-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 1rem;
+    color: #434444;
+}
+
+.card-text {
+    min-height: 5rem;
+    color: #434444;
+}
+
+
+/*sección "Flor Godoy Info y sección asesoramiento" */
+
+.container{
+    background-color: #434444;
+    padding: 10px;
+    color:beige
+}
+
+.container h3{
+    margin-top: 5px;
+}
