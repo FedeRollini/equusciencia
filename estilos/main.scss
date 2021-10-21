@@ -27,18 +27,13 @@ body {
     background-blend-mode: darken;
 }
 
-.cover-small {
-    height: 200px;
-    background-blend-mode: normal;
-    padding: 5px;
-}
-
-
 .card {
     border: 0 !important;
     box-shadow: auto;
+    padding: 1px;
     
 }
+
 
 .card-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

@@ -75,11 +75,6 @@ footer {
   background-color: #434444;
 }
 
-.card {
-  margin-top: 25px;
-  padding: 20px;
-}
-
 img {
   padding: 15px;
 }
@@ -95,9 +90,11 @@ h3 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  margin: auto;
   width: 400px;
   padding: 15px;
   margin: 2px;
+  border: 3px solid #006a52;
 }
 
 .form-label {
@@ -129,16 +126,11 @@ body {
   background-blend-mode: darken;
 }
 
-.cover-small {
-  height: 200px;
-  background-blend-mode: normal;
-  padding: 5px;
-}
-
 .card {
   border: 0 !important;
   -webkit-box-shadow: auto;
           box-shadow: auto;
+  padding: 1px;
 }
 
 .card-title {
