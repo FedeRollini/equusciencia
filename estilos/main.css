@@ -95,6 +95,14 @@ h3 {
   border: 3px solid #006a52;
 }
 
+/*Media quaries para video */
+@media (max-width: 760px) {
+  .ratio {
+    width: 100%;
+    margin: 2px 0;
+  }
+}
+
 .form-label {
   margin-top: 15px;
 }

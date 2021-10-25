@@ -6,4 +6,10 @@
         border: 3px solid $verde;
 }
 
-
+/*Media quaries para video */
+@media (max-width:760px) {
+    .ratio{
+      width: 100%;
+      margin: 2px 0;
+    }
+  }
