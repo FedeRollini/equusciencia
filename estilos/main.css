@@ -90,10 +90,8 @@ h3 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin: auto;
-  width: 400px;
-  padding: 15px;
-  margin: 2px;
+  width: 31%;
+  margin: 2px 1%;
   border: 3px solid #006a52;
 }
 
@@ -116,6 +114,11 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
 /*imagen grande e imagenes de novedades */
 .cover {
   height: 400px;
@@ -131,6 +134,7 @@ body {
   -webkit-box-shadow: auto;
           box-shadow: auto;
   padding: 1px;
+  margin: 10px;
 }
 
 .card-title {
