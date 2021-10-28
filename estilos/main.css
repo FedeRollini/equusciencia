@@ -10,10 +10,13 @@
 
 .navbar {
   background-color: #434444;
+  height: 100px;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
 }
 
 .logo img {
-  max-height: 85px;
+  max-height: 100px;
 }
 
 .nav li a {
@@ -32,7 +35,7 @@
 .nav li ul {
   display: none;
   position: absolute;
-  min-width: 140px;
+  min-width: 110px;
 }
 
 .nav li:hover > ul {
@@ -122,12 +125,11 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
 }
 
+/*imagen grande e imagenes de novedades */
 .logo {
-  height: 45px;
-  width: 45px;
+  max-height: 150px;
 }
 
-/*imagen grande e imagenes de novedades */
 .cover {
   height: 400px;
   color: white;
