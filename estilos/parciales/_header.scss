@@ -3,6 +3,7 @@ $gris: #434444;
 $verde: #006a52;
 $dorado: #b9975b;
 
+
 .nav-link {
     display: block;
     padding: .4rem 0.5rem;
@@ -12,17 +13,27 @@ $dorado: #b9975b;
 }
 
 .navbar {
-    background-color: $gris;
-    height: 100px;
-    align-content: space-around;
-   
-   
+  
+  background-color: $gris;
+  height: 100px;
+  padding:0;
+  z-index:1;
+}
+
+.navbar-toggler {
+margin-right:0.5rem;
+}
+
+@media all and (max-width:991px) {
+.nav li {
+  width:100%;
+}
 }
 
 .logo img {
     max-height: 100px;
   }
-			  
+  
 .nav li a {
     background-color: $gris;
     color:#fff;
@@ -73,4 +84,3 @@ $dorado: #b9975b;
     }
   }
 
- 

@@ -11,8 +11,18 @@
 .navbar {
   background-color: #434444;
   height: 100px;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  padding: 0;
+  z-index: 1;
+}
+
+.navbar-toggler {
+  margin-right: 0.5rem;
+}
+
+@media all and (max-width: 991px) {
+  .nav li {
+    width: 100%;
+  }
 }
 
 .logo img {
@@ -126,10 +136,6 @@ body {
 }
 
 /*imagen grande e imagenes de novedades */
-.logo {
-  max-height: 150px;
-}
-
 .cover {
   height: 400px;
   color: white;
