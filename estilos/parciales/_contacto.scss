@@ -9,3 +9,10 @@ h1{
 .btn{
     background-color: $verde;
 }
+
+.row1{
+        display: inline-flex;
+        justify-content: flex-start;
+        width:31%;
+        margin: 2px 1%;
+}
